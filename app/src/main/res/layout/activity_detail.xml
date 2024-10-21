@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Emerald"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            app:title="Detail"
+            app:titleTextColor="@android:color/white" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#4D000000"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:shadowColor="#FF000000"
+            android:shadowRadius="2"
+            android:shadowDx="0"
+            android:shadowDy="1"/>
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

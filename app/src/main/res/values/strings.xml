@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">AplikasiSubmission</string>
+
+    <string name="songs_name">Songs Title</string>
+    <string name="description">Description</string>
+
+    <string-array name="data_name">
+        <item>You Were Beautiful</item>
+        <item>Fix You</item>
+        <item>When I Was Your Man</item>
+        <item>Lampu Kuning</item>
+        <item>Locked AWay</item>
+        <item>One Call Away</item>
+        <item>Penantian Berharga</item>
+        <item>Set Me Free</item>
+        <item>Standing Next To You</item>
+        <item>You Are The Reason</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>"You Were Beautiful" - Lagu ballad emosional dari band DAY6, menceritakan kisah cinta masa lalu yang indah namun telah berlalu.</item>
+        <item>"Fix You" - Lagu dari Coldplay yang menyampaikan pesan harapan dan dukungan emosional untuk seseorang yang sedang berjuang dalam hidupnya.</item>
+        <item>"When I Was Your Man" - Lagu dari Bruno Mars yang penuh penyesalan tentang kehilangan cinta karena tidak cukup menghargai seseorang saat masih bersama.</item>
+        <item>"Lampu Kuning" - Lagu dari Tulus yang berbicara tentang tanda-tanda peringatan dalam hubungan, di mana sesuatu yang tidak beres mulai terlihat.</item>
+        <item>"Locked Away" - Lagu yang penuh emosi dari Wet, menceritakan tentang rasa kecewa dan kehilangan harapan dalam sebuah hubungan yang mulai hancur.</item>
+        <item>"One Call Away" - Lagu pop optimis dari Charlie Puth, yang menggambarkan kesiapan untuk selalu ada untuk seseorang yang membutuhkan dukungan kapan pun.</item>
+        <item>"Penantian Berharga" - Lagu romantis dari Rizky Febian yang menceritakan tentang perjalanan cinta yang penuh penantian namun akhirnya menemukan kebahagiaan.</item>
+        <item>"Set Me Free" - Lagu dari TWICE yang menggambarkan kebebasan dan keberanian untuk keluar dari belenggu hubungan yang menahan diri.</item>
+        <item>"Standing Next To You" - Lagu yang penuh semangat dari Jungkook BTS, tentang arti pentingnya kehadiran seseorang yang spesial dalam hidup.</item>
+        <item>"You Are The Reason" - Lagu dari Calum Scott yang berbicara tentang seseorang yang menjadi alasan utama untuk berjuang dan memperbaiki diri dalam hidup.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/beatiful</item>
+        <item>@drawable/fix_you</item>
+        <item>@drawable/i_was_you_man</item>
+        <item>@drawable/lampu_kuning</item>
+        <item>@drawable/look_away</item>
+        <item>@drawable/one_call_away</item>
+        <item>@drawable/penantian_berharga</item>
+        <item>@drawable/set_me_free</item>
+        <item>@drawable/snty</item>
+        <item>@drawable/you_are_the_reason</item>
+
+    </integer-array>
+
+    <string-array name="data_artist">
+        <item>Day6</item>
+        <item>Coldplay</item>
+        <item>Bruno Mars</item>
+        <item>Juicy Luicy</item>
+        <item>R.City feat. Adam Levine</item>
+        <item>Charlie Puth</item>
+        <item>Rizky Febian</item>
+        <item>TWICE</item>
+        <item>Jungkook</item>
+        <item>Calum Scott</item>
+    </string-array>
+
+    <string-array name="data_producer">
+        <item>Park Jae-sang (Psy)</item>
+        <item>Guy Berryman, Jonny Buckland, Will Champion, Chris Martin (Coldplay)</item>
+        <item>Philip Lawrence, Christopher Stewart (Bruno Mars)</item>
+        <item>Pashmina</item>
+        <item>Asha and Izzy</item>
+        <item>Charlie Puth, Jake Gosling</item>
+        <item>Pashmina</item>
+        <item>Drew Seeley, D. Scott</item>
+        <item>Shane McAnally</item>
+        <item>Calum Scott, Fraser T. Smith</item>
+    </string-array>
+
+    <string name="menu_profile">profile</string>
+    <string name="menu_back">back</string>
+</resources>
